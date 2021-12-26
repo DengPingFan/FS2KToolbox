@@ -11,14 +11,11 @@
 + Put the source frames and result images as follows:
 
 ````
-The structure of dataset you download should look as follows:
-
-```
-FS2K
+FS2K_PROJ_EVAL
 ├── photo
-│       ├── photo1		(1,529, source: CASIA-WebFace)
-│       ├── photo2		(98,    source: invited eight actors)
-│       └── photo3		(477,   source: free stock photos websites, including Unsplash, Pexels, Pngimg and Google)
+│       ├── photo1
+│       ├── photo2
+│       └── photo3
 ├── sketch
 │       ├── sketch1
 │       ├── sketch2
@@ -33,7 +30,6 @@ FS2K
 │       └── ...
 ├── anno_test.json
 ├── anno_train.json
-```
 ````
 
  ### Evaluation
@@ -41,6 +37,9 @@ FS2K
 + Metric: [SCOOT](https://dpfan.net/scoot/) (designed for sketch evaluation) and [SSIM](https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf).
 + Env: MATLAB (tested with MATLAB R2020b)
 + Run `eval_FSS_results.m` for testing.
++ Output: two excel files for saving SCOOT and SSIM scores of all methods: overall_scoot, scores_of_facial_parts.
+
+![vis_sample](README.assets/vis_sample.png)
 
 ### Reference
 
