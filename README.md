@@ -51,10 +51,12 @@ FS2K_PROJ_EVAL
   year={2021}
 }
 
-title={Scoot: A Perceptual Metric for Facial Sketches},
-  author={Fan, Deng-Ping and Zhang, ShengChuan and Wu, Yu-Huan and Liu, Yun and Cheng, Ming-Ming and Ren, Bo and Rosin, Paul L. and Ji, Rongrong},
-  booktitle={The IEEE International Conference on Computer Vision (ICCV)},
-  year={2019}
+@article{Fan2019ScootAP,
+  title={Scoot: A Perceptual Metric for Facial Sketches},
+  author={Deng-Ping Fan and Shengchuan Zhang and Yu-Huan Wu and Yun Liu and Ming-Ming Cheng and Bo Ren and Paul L. Rosin and Rongrong Ji},
+  journal={2019 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year={2019},
+  pages={5611-5621}
 }
 
 @article{Wang2004ImageQA,
